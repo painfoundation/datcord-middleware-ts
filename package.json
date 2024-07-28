@@ -1,0 +1,22 @@
+{
+  "name": "datcord-middleware",
+  "version": "1.0.0",
+  "description": "Datcord API middleware for Typescript",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/painfoundation/datcord-middleware-ts.git"
+  },
+  "keywords": [
+    "datcord"
+  ],
+  "author": "37o1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/painfoundation/datcord-middleware-ts/issues"
+  },
+  "homepage": "https://github.com/painfoundation/datcord-middleware-ts#readme"
+}
