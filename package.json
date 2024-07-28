@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/painfoundation/datcord-middleware-ts#readme",
   "dependencies": {
+    "@types/node": "^20.14.12",
+    "node": "^20.16.0",
     "socket.io-client": "^4.7.5"
   },
   "types": "types/main.d.ts"
