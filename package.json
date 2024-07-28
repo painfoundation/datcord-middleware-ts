@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/painfoundation/datcord-middleware-ts/issues"
   },
-  "homepage": "https://github.com/painfoundation/datcord-middleware-ts#readme"
+  "homepage": "https://github.com/painfoundation/datcord-middleware-ts#readme",
+  "dependencies": {
+    "socket.io-client": "^4.7.5"
+  }
 }
