@@ -19,3 +19,6 @@ Default values:
 
 The API avoids null and undefined values and will not process your request when supplying incomplete or incorrect types.
 
+### Usage
+
+You can use the middleware to interract with the Datcord API as a user.
