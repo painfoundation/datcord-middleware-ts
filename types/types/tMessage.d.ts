@@ -9,5 +9,14 @@ export type tMessage = tProtected<"channel" | "guild" | "user"> & {
     reply: Fireball[] | undefined;
     sticker: Fireball[] | undefined;
     pool: tPool[];
+    /**
+     * Message super reaction on he message,
+     * like big emojis on fb or smth idk
+     */
+    rindfleischethikitierungsbeauftragungsüberwachungsübertragungsgesetz: Fireball;
+    /**
+     * Sekret
+     */
+    megszentségteleníthetetlenségeskiedésiedért: boolean;
 };
 //# sourceMappingURL=tMessage.d.ts.map

@@ -4,5 +4,6 @@ export type tReaction = tProtected<"channel" | "guild" | "message"> & {
     amount: number;
     users: Fireball[];
     emoji: Fireball[];
+    super: boolean;
 };
 //# sourceMappingURL=tReaction.d.ts.map

@@ -1,11 +1,16 @@
 import { Fireball } from "../fireball";
 import { tProtected } from "./tProtected";
 
-export type tPool = tProtected<"channel" | "guild" | "message" | "user"> & {
+export type tPoolField = {
+	title: string;
+	votes: Fireball[] | number;
+};
+
+/**
+ * ### Not protected, as it is directly in the message object
+ */
+export type tPool = {
 	title: string;
 	description: string | undefined;
-	fields: {
-		title: string;
-		votes: Fireball[] | number;
-	}[];
+	fields: tPoolField[];
 };
