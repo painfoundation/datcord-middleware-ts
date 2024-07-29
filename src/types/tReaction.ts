@@ -1,7 +1,12 @@
 import { Fireball } from "../fireball";
 import { tProtected } from "./tProtected";
 
-export type tReaction = tProtected<"channelID" | "guildID" | "messageID"> & {
+/**
+ * # tReaction
+ * 
+ * ### Not protected, as it is directly in the message object
+ */
+export type tReaction = {
 	amount: number;
 	users: Fireball[];
 	emoji: Fireball[];

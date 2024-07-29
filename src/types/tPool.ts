@@ -7,10 +7,21 @@ export type tPoolField = {
 };
 
 /**
+ * # tPool
+ * 
  * ### Not protected, as it is directly in the message object
  */
 export type tPool = {
+	/**
+	 * The title the pool
+	 */
 	title: string;
-	description: string | undefined;
+	/**
+	 * The description of the pool
+	 */
+	description: string;
+	/**
+	 * Pool fields
+	 */
 	fields: tPoolField[];
 };
